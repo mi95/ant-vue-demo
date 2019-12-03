@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'F:\\nodejs\\node.exe',
+1 verbose cli   'F:\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'bulid'
+1 verbose cli ]
+2 info using npm@5.4.0
+3 info using node@v12.12.0
+4 verbose stack Error: missing script: bulid
+4 verbose stack     at run (F:\nodejs\node_global\node_modules\npm\lib\run-script.js:151:19)
+4 verbose stack     at F:\nodejs\node_global\node_modules\npm\lib\run-script.js:61:5
+4 verbose stack     at F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:115:5
+4 verbose stack     at F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:402:5
+4 verbose stack     at checkBinReferences_ (F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:357:45)
+4 verbose stack     at final (F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:400:3)
+4 verbose stack     at then (F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:160:5)
+4 verbose stack     at F:\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:348:12
+4 verbose stack     at F:\nodejs\node_global\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
+5 verbose cwd F:\project\vue\antd-vue-demo
+6 verbose Windows_NT 10.0.17763
+7 verbose argv "F:\\nodejs\\node.exe" "F:\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "run" "bulid"
+8 verbose node v12.12.0
+9 verbose npm  v5.4.0
+10 error missing script: bulid
+11 verbose exit [ 1, true ]
